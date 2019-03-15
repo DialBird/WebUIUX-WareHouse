@@ -1,11 +1,6 @@
-# Airbnb
+# 登録・ログイン
 
-- https://www.airbnb.jp/
-
-## Signup
-- SNSはFacebookとGoogle
-- 登録ボタンを押すと、まず登録せずに情報だけを持ってきて、直後のフォームで必須項目が揃っているかを確認した上で登録させる
-
+## 登録
 ### Facebook
 #### Required
 - 氏名・写真
@@ -19,11 +14,13 @@
 #### Required
 - 特になし
 
-### AfterSNSLogin
+### SNS登録直後
+- 登録ボタンを押した直後はDBに登録せず、情報だけを持ってきて、フォームで必須項目が揃っているかを確認した上で登録させる
 <img src='./after_fb_signup.png' width=50%>
 <img src='./after_fb_signup_2.png' width=50%>
 
 ### Email
+#### Required
 - Email
 - 姓
 - 名
@@ -31,8 +28,8 @@
 
 <img src='./signup.png' width=50%>
 
-## Login
+## ログイン
 <img src='./login.png' width=50%>
 
-## ResetPassword
+## パスワードリセット
 <img src='./reset_password.png' width=50%>
